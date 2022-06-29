@@ -76,7 +76,7 @@ public:
   //Loading Default values
 
 
-  input_image_topic = "/usb_cam/image_raw";
+  input_image_topic = "/rgb/image_raw";
   output_image_topic = "/face_detector/raw_image";
   haar_file_face = "/home/robot/face.xml";
   face_tracking = 1;
