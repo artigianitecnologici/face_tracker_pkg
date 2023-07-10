@@ -291,7 +291,7 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade)
 
     // Using cv2.putText() method
     // image = cv2.putText(image, 'OpenCV', org, font, 
-                   fontScale, color, thickness, cv2.LINE_AA)
+    //               fontScale, color, thickness, cv2.LINE_AA)
 /*
     
 
