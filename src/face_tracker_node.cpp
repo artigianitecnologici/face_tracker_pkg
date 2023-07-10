@@ -287,7 +287,13 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade)
     line(img,  pty1,  pty2, Scalar(0, 0, 255),0.2);
     line(img,  pty3,  pty4, Scalar(0, 255, 0),0.2);
     line(img,  pty5,  pty6, Scalar(0, 255, 0),0.2);
+    
 
+    // Using cv2.putText() method
+    // image = cv2.putText(image, 'OpenCV', org, font, 
+                   fontScale, color, thickness, cv2.LINE_AA)
+/*
+    
 
     putText(img, "Left", cvPoint(50,240), FONT_HERSHEY_SIMPLEX, 1, cvScalar(255,0,0), 2, CV_AA);
     putText(img, "Center", cvPoint(280,240), FONT_HERSHEY_SIMPLEX, 1, cvScalar(0,0,255), 2, CV_AA);
@@ -295,6 +301,7 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade)
 
     putText(img, "Up", cvPoint(300,80), FONT_HERSHEY_SIMPLEX, 1, cvScalar(255,0,0), 2, CV_AA);
     putText(img, "Down", cvPoint(280,420), FONT_HERSHEY_SIMPLEX, 1, cvScalar(255,0,0), 2, CV_AA);
+    */  
 
     if (display_tracking_image == 1){
 
