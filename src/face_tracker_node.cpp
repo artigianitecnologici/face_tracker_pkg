@@ -157,7 +157,7 @@ public:
 
       image_pub_.publish(cv_ptr->toImageMsg());
 
-      waitKey(30);
+      waitKey(90);
   
 }
  
@@ -279,6 +279,7 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade)
 
     pty6.y = (screenmaxy / 2) + center_offset;
     pty6.x = 640;
+    //  ROS_ERROR("cv_bridge exception: %s", e.what());
 
 
     line(img,  pt1,  pt2, Scalar(0, 0, 255),0.2);
